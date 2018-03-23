@@ -1,5 +1,4 @@
 section{
-    border: 5px solid black;
     background-image: url('../img/fundo.jpg');
     background-repeat: no-repeat;
     background-size: 1400px;
@@ -7,7 +6,6 @@ section{
 }
 
  .logoTipo img{
-    border: 5px solid black;
     width: 265px;
     margin-left: 550px;
     margin-top: 15px;
@@ -15,19 +13,18 @@ section{
  }
 
  .slogan{
-    border: 5px solid black;
      margin-left: 250px;
      width:  900px;
  }
 
  .slogan h1{
-     border:2px solid black;
+     
      font-size: 60px;
      padding: 0;
  }
 
  .slogan p{
-    border:2px solid black;
+    
     margin-left: 200px;
     padding: 0;
     font-size: 30px;
