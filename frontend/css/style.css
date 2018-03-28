@@ -1,33 +1,35 @@
-section{
-    background-image: url('../img/fundo.jpg');
-    background-repeat: no-repeat;
-    background-size: 1400px;
+section {
+    /* background-image: url('../img/fundo.jpg'); */
+    background-color: #2D2D2D;
+    /* background-repeat: no-repeat;
+    background-size: 1400px; */
     color: white;
+    position: static;
+    height: 600px;
+    width: 100%;
 }
 
- .logoTipo img{
+.logoTipo img {
     width: 265px;
     margin-left: 550px;
-    margin-top: 15px;
-    margin-bottom: 15px;
- }
+    margin-top: 100px;
+    /* margin-bottom: 15px; */
+}
 
- .slogan{
-     margin-left: 250px;
-     width:  900px;
- }
+.slogan {
+    margin-top: 70px;
+    margin-left: 250px;
+    width: 900px;
+}
 
- .slogan h1{
-     
-     font-size: 60px;
-     padding: 0;
- }
+.slogan h1 {
+    font-size: 60px;
+    padding: 0;
+}
 
- .slogan p{
-    
+.slogan p {
     margin-left: 200px;
     padding: 0;
     font-size: 30px;
     width: 500px;
- }
-
+}
