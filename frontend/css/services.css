@@ -1,7 +1,6 @@
 .planoDeFundo {
     position: relative;
     border-top: 1px solid rgb(68, 66, 66);
-    color: white;
     display: flex;
     top: 70px;
     justify-content: space-around;
@@ -18,12 +17,15 @@
     width: 400px;
     height: 400px;
     margin-top: 35px;
+    transition: 3s;
 }
 
 #problema:hover {
     border: 1px solid rgb(68, 66, 66);
+    text-transform: uppercase;
 }
 
 #solucao:hover {
     border: 1px solid rgb(68, 66, 66);
+    text-transform: uppercase;
 }

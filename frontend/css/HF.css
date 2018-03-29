@@ -1,13 +1,19 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Glacial;
+    color: whitesmoke oke;
+}
+
+@font-face {
+    font-family: Glacial;
+    src: url(../fonts/GlacialIndifference-Bold.otf);
+    font-weight: bold;
 }
 
 header {
-    /* margin-top:-10px; */
     background-color: #2D2D2D;
     border-bottom: 1px solid rgb(68, 66, 66);
-    color: white;
     position: fixed;
     top: 0px;
     width: 100%;
@@ -51,7 +57,7 @@ nav ul li {
 button {
     background-color: #2D2D2D;
     border: none;
-    color: white;
+    color: whitesmoke;
     padding: 10px 10px;
     text-align: center;
     font-size: 16px;
@@ -62,7 +68,6 @@ button {
 
 button a {
     text-decoration: none;
-    color: white;
 }
 
 button:hover {
@@ -72,18 +77,19 @@ button:hover {
 
 footer {
     border-top: 1px solid rgb(68, 66, 66);
-    background-color: #2D2D2D;
-    color: white;
     text-transform: uppercase;
+    background-color: #2D2D2D;
     position: fixed;
     bottom: 0px;
     height: 20%;
     width: 100%;
     padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 footer p {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     font-size: 30px;
     width: 150px;
 }
@@ -94,20 +100,17 @@ footer li {
     padding-top: 5px;
 }
 
-footer aside {
-    position: relative;
-    /* margin-right: 100px;  */
-    top: 5px;
-    left: 100px;
-    width: 100px;
-    ;
-}
 
-footer div {
+/* footer aside {
+    margin-left: 100px;
+} */
+
+
+/* footer div {
     position: relative;
     margin-left: 1000px;
     top: -90px;
-}
+} */
 
 footer .redes {
     width: 200px;

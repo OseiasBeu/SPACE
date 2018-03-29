@@ -1,0 +1,23 @@
+@font-face {
+    font-family: glacialBold;
+    src: url("../fonts/glacial-indifference/GlacialIndifference-Bold.otf") format("opentype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: glacialItalic;
+    src: url("../fonts/glacial-indifference/GlacialIndifference-Italic.otf") format("opentype");
+    font-weight: Italic;
+}
+
+@font-face {
+    font-family: glacialRegular;
+    src: url("../fonts/glacial-indifference/GlacialIndifference-Regular.otf") format("opentype");
+    font-weight: Regular;
+}
+
+* {
+    font-family: glacialRegular;
+    font-weight: Regular;
+    color: whitesmoke;
+}
