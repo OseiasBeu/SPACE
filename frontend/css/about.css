@@ -18,23 +18,15 @@
     position: relative;
     margin: 40px;
     text-align: justify;
-    /* width: 3520px;*/
     justify-content: space-around;
     height: 200px;
     top: 50px;
 }
 
 #corpoPrincipal aside {
-    /* border: 2px solid blue; */
     justify-content: space-around;
     position: relative;
     top: 260px;
     right: 600px;
     height: 200px;
 }
-
-
-/* figcaption {
-    
-    word-wrap: break-word;
-} */

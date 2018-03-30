@@ -6,7 +6,7 @@ function saltarDaTelaP() {
     problema.style.transform = 'scale(1.3,1.3)';
     problema.style.transition = '2s';
     problema.style.border = '1px solid rgb(68, 66, 66);'
-    problema.style.zIndex = '1';
+        // problema.style.zIndex = '1';
 
 }
 
@@ -22,7 +22,7 @@ function saltarDaTelaS() {
     solucao.style.transform = 'scale(1.3,1.3)';
     solucao.style.transition = '2s';
     solucao.style.border = '1px solid rgb(68, 66, 66);'
-    solucao.style.zIndex = '1';
+        // solucao.style.zIndex = '1';
 }
 
 function voltarPraTelaS() {

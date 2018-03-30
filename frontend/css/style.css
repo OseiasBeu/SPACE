@@ -1,20 +1,20 @@
 section {
     background-color: #2D2D2D;
     position: static;
-    height: 600px;
+    height: 700px;
     width: 100%;
 }
 
 .logoTipo img {
-    width: 265px;
-    margin-left: 550px;
-    margin-top: 100px;
-    /* margin-bottom: 15px; */
+    margin-top: -50px;
+    margin-left: 50px;
+    width: 90%;
 }
 
 .slogan {
-    margin-top: 70px;
-    margin-left: 250px;
+    position: relative;
+    top: -180px;
+    margin-left: 220px;
     width: 900px;
 }
 

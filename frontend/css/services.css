@@ -1,8 +1,9 @@
 .planoDeFundo {
-    position: relative;
+    position: static;
     border-top: 1px solid rgb(68, 66, 66);
     display: flex;
-    top: 70px;
+    margin-top: 50px;
+    height: 500px;
     justify-content: space-around;
 }
 
@@ -13,11 +14,11 @@
 
 #problema,
 #solucao {
-    position: relative;
     width: 400px;
     height: 400px;
-    margin-top: 35px;
+    margin-top: 60px;
     transition: 3s;
+    z-index: 10;
 }
 
 #problema:hover {
