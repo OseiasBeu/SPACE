@@ -8,7 +8,12 @@
 }
 
 #problema {
-    background-image: url('../img/problema.png');
+    background-image: url('../img/problemaD.png');
+    background-repeat: no-repeat, repeat;
+}
+
+#solucao {
+    background-image: url('../img/lampD.png');
     background-repeat: no-repeat, repeat;
 }
 

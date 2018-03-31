@@ -8,13 +8,7 @@
     top: 70px;
 }
 
-#corpoPrincipal img {
-    width: 50px;
-}
-
 #corpoPrincipal div {
-    font-family: Glacial;
-    color: whitesmoke;
     position: relative;
     margin: 40px;
     text-align: justify;
