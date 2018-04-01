@@ -9,16 +9,22 @@ section {
     width: 100%;
 }
 
+.logoTipo {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    left: 400px;
+    top: 50px;
+}
+
 .logoTipo img {
-    margin-top: -50px;
-    margin-left: 50px;
-    width: 90%;
+    width: 100%;
 }
 
 .slogan {
     position: relative;
-    top: -180px;
-    margin-left: 220px;
+    left: 200px;
+    top: 50px;
     width: 900px;
 }
 
