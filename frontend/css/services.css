@@ -1,3 +1,7 @@
+* {
+    color: whitesmoke;
+}
+
 .planoDeFundo {
     position: static;
     border-top: 1px solid rgb(68, 66, 66);

@@ -9,12 +9,13 @@ function girarMissao() {
     missao.style.color = 'whitesmoke';
     missao.style.border = '1px solid rgb(68, 66, 66);'
     missao.style.transition = '2s';
+
     visao.style.color = 'rgba(0, 0, 0, 0)';
     valores.style.color = 'rgba(0, 0, 0, 0)';
 }
 
 function girarVisao() {
-    imgIco.style.transform = 'rotate(350deg)';
+    imgIco.style.transform = 'rotate(305deg)';
     imgIco.style.transition = '2s';
     visao.style.color = 'whitesmoke';
     visao.style.border = '1px solid rgb(68, 66, 66);'
@@ -24,7 +25,7 @@ function girarVisao() {
 }
 
 function girarValores() {
-    imgIco.style.transform = 'rotate(-350deg)';
+    imgIco.style.transform = 'rotate(350deg)';
     imgIco.style.transition = '2s';
     valores.style.color = 'whitesmoke';
     valores.style.transition = '2s';
