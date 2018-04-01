@@ -17,9 +17,21 @@
         <nav>
             <ul>
 
-                <li><button class="btn"><a href="index.html">Home</a></button></li>
-                <li><button class="btn"><a href="services.html">Serviços</a></button></li>
-                <li><button class="btn"><a href="about.html">Sobre nós</a></button></li>
+                <a href="index.html">
+                    <li>
+                        <button class="btn">Home</button>
+                    </li>
+                </a>
+                <a href="services.html">
+                    <li>
+                        <button class="btn">Serviços</button>
+                    </li>
+                </a>
+                <a href="about.html">
+                    <li>
+                        <button class="btn">Sobre nós</button>
+                    </li>
+                </a>
             </ul>
         </nav>
         <img src="img/icone.jpg" alt="logotipo">
@@ -33,14 +45,12 @@
     <section class="planoDeFundo">
 
 
-
-        <div class="logoTipo">
-            <img src="img/capa.jpg" alt="Nosso logotipo">
+        <div onmouseover="dim()" onmouseout="aum()" class="logoTipo">
+            <img onclick="girarD()" src="img/principal.png" alt="Nosso logotipo">
         </div>
 
         <div class="slogan">
             <p>SPACE | Soluções para o crescimento</p>
-
         </div>
 
 
@@ -57,11 +67,13 @@
             </ul>
         </aside>
 
-        <div>
+        <div id="redesSociais">
             <p>Siga-nos:</p>
-            <img class="redes" src="img/redes.png" alt="Redes sociais">
+            <a href="https://www.facebook.com/SPaCe-Soluções-Para-o-Crescimento-1356226674523308/?modal=admin_todo_tour" target="blank"><img class="redes" src="img/face.png" alt="FacebookIcone"></a>
+            <a href="https://www.facebook.com/SPaCe-Soluções-Para-o-Crescimento-1356226674523308/?modal=admin_todo_tour" target="blank"><img class="redes" src="img/tw.png" alt="TwitterIcone"></a>
         </div>
     </footer>
+    <script src="scripts/index.js"></script>
 </body>
 
 </html>

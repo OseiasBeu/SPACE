@@ -66,7 +66,7 @@ button {
     text-transform: uppercase;
 }
 
-button a {
+button a:link {
     text-decoration: none;
 }
 
@@ -99,5 +99,9 @@ footer li {
 }
 
 footer .redes {
-    width: 200px;
+    width: 50px;
+}
+
+#redesSociais a:link {
+    text-decoration: none;
 }

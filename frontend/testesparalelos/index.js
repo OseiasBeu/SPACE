@@ -1,17 +1,23 @@
 let imgIco = document.querySelector('img');
 
 function girarD() {
+
     imgIco.style.transform = 'rotate(360deg)';
     imgIco.style.transition = '2s';
+    dec;
 }
+
 
 function girarE() {
+    // imgIco.style.transform = 'scale(0.5,0.5)';
     imgIco.style.transform = 'rotate(0deg)';
     imgIco.style.transition = '2s';
+    dec;
 }
 
-// function decrece() {
-//     // problema.style.transform = 'scale(1,1)';
-//     imgIco.style.transform = 'scale(2,2)';
-//     imgIco.style.transition = '2s';
-// }
+let dec = {
+    method: function decrece() {
+        return imgIco.style.transform = 'scale(0.5,0.5)';
+    }
+
+}

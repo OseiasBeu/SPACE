@@ -3,5 +3,25 @@ body {
 }
 
 img {
-    margin-left: 300px;
+    margin-left: 200px;
+}
+
+button {
+    background-color: #2D2D2D;
+    border: none;
+    color: whitesmoke;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button a {
+    text-decoration: none;
+}
+
+button:hover {
+    border: 1px solid #444242;
 }

@@ -10,17 +10,23 @@
 </head>
 
 <body>
+    <!-- <ul>
+
+        <li><button class="btn"><a href="index.html">Home</a></button></li>
+        <li><button class="btn"><a href="services.html">Serviços</a></button></li>
+        <li><button class="btn"><a href="about.html">Sobre nós</a></button></li>
+    </ul> -->
 
     <h1>clique</h1>
     <ul>
-        <li>Missão</li>
-        <li>Visão</li>
-        <li>Valores</li>
+        <li><button class="btn" onclick="girarD()">Missão</button></li>
+        <li><button class="btn" onclick="girarE()">Visão</button></li>
+        <li><button class="btn" onclick="girarD()">Valores</button></li>
     </ul>
 
-
-    <img id="img" onmousemove="girarD()" onmouseout="girarE()" src="ic.png" alt="nossoIcone">
-
+    <aside>
+        <img id="img" src="ic.png" alt="nossoIcone">
+    </aside>
     <!-- onclick="decrece()" -->
     <script src="index.js"></script>
 
