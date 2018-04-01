@@ -1,9 +1,11 @@
 body {
-    background-color: red;
+    background-color: #2D2D2D;
+    ;
 }
 
-img {
-    margin-left: 200px;
+#imgIC {
+    border: 2px solid white;
+    margin-left: 400px;
 }
 
 button {
@@ -24,4 +26,24 @@ button a {
 
 button:hover {
     border: 1px solid #444242;
+}
+
+#MVV {
+    border: 2px solid white;
+    display: flex;
+}
+
+#MVV li {
+    list-style: none;
+    margin-left: 5px;
+}
+
+aside {
+    border: 2px solid white;
+    display: flex;
+    color: rgba(0, 0, 0, 0);
+}
+
+aside div {
+    border: 2px solid white;
 }
