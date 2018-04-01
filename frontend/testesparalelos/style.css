@@ -4,11 +4,14 @@ body {
 }
 
 #imgIC {
-    border: 2px solid white;
-    margin-left: 400px;
+    position: relative;
+    /* border: 2px solid white; */
+    left: 400px;
+    width: 400px;
+    height: 400px;
 }
 
-button {
+.btnMVV {
     background-color: #2D2D2D;
     border: none;
     color: whitesmoke;
@@ -20,17 +23,20 @@ button {
     text-transform: uppercase;
 }
 
-button a {
+.btnMVV a {
     text-decoration: none;
 }
 
-button:hover {
+.btnMVV:hover {
     border: 1px solid #444242;
 }
 
 #MVV {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     display: flex;
+    position: relative;
+    /* left: 500px; */
+    width: 300px;
 }
 
 #MVV li {
@@ -39,11 +45,33 @@ button:hover {
 }
 
 aside {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     display: flex;
     color: rgba(0, 0, 0, 0);
 }
 
 aside div {
-    border: 2px solid white;
+    position: relative;
+    text-align: center;
+    /* border: 2px solid white; */
+    height: 300px;
+    width: 500px;
+}
+
+.missaoCapa {
+    right: 300px;
+}
+
+.visaoCapa {
+    top: 320px;
+    right: 250px;
+    height: 150px;
+    width: 200px;
+}
+
+.valoresCapa {
+    top: 30px;
+    right: 400px;
+    height: 200px;
+    width: 230px;
 }

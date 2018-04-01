@@ -1,5 +1,6 @@
 #corpoPrincipal {
     background-color: hsl(0, 0%, 18%);
+    color: rgba(0, 0, 0, 0);
     position: absolute;
     border-top: 1px solid rgb(68, 66, 66);
     display: flex;
@@ -17,10 +18,109 @@
     top: 50px;
 }
 
-#corpoPrincipal aside {
+#corpoPrincipal #board {
     justify-content: space-around;
     position: relative;
-    top: 260px;
-    right: 600px;
-    height: 200px;
+    color: rgba(0, 0, 0, 0);
+    /* top: 180px; */
+    right: 200px;
+    /* height: 450px; */
+    height: 100%;
+    width: 90%;
 }
+
+#imgIC {
+    position: relative;
+    /* border: 2px solid white; */
+    left: 450px;
+    width: 350px;
+    height: 350px;
+}
+
+.btnMVV {
+    background-color: #2D2D2D;
+    /* border: none; */
+    color: whitesmoke;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btnMVV a {
+    text-decoration: none;
+}
+
+.btnMVV:hover {
+    border: 1px solid #444242;
+}
+
+#MVV {
+    /* border: 2px solid blue; */
+    display: flex;
+    position: relative;
+    /* left: 500px; */
+    height: 50px;
+    width: 300px;
+    z-index: 1;
+}
+
+#MVV li {
+    list-style: none;
+    margin-left: 5px;
+}
+
+#board {
+    /* border: 2px solid green; */
+    display: flex;
+    width: 100%;
+    color: rgba(0, 0, 0, 0);
+}
+
+#board img {
+    position: relative;
+    z-index: 1;
+    top: 60px;
+    /* right: 600px; */
+}
+
+#board div {
+    position: relative;
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    /* border: 2px solid white; */
+    height: 100px;
+    width: 500px;
+    /* z-index: -1; */
+}
+
+#board .missaoCapa {
+    /* color: rgba(0, 0, 0, 0); */
+    right: 300px;
+    height: 300px;
+}
+
+#board .visaoCapa {
+    /* top: 320px; */
+    /* color: rgba(0, 0, 0, 0); */
+    right: 50px;
+    height: 100px;
+    width: 200px;
+}
+
+#board .valoresCapa {
+    top: 300px;
+    right: 590px;
+    height: 200px;
+    width: 230px;
+    /* color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0); */
+}
+
+
+/* 
+#board {
+    color: rgba(0, 0, 0, 0);
+} */
