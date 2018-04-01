@@ -14,11 +14,27 @@
 #problema {
     background-image: url('../img/problemaD.png');
     background-repeat: no-repeat, repeat;
+    text-align: center;
+    text-align-last: center;
+}
+
+#problema h2 {
+    position: relative;
+    font-size: 50px;
+    text-align: center;
+    top: 40%;
 }
 
 #solucao {
     background-image: url('../img/lampada_apagada.png');
     background-repeat: no-repeat, repeat;
+}
+
+#solucao h2 {
+    position: relative;
+    font-size: 50px;
+    text-align: center;
+    top: 40%;
 }
 
 #problema,
